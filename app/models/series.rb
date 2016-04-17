@@ -18,4 +18,8 @@
 
 class Series < ActiveRecord::Base
   has_many :episodes
+
+  def updated_today?
+    updated_at.today?
+  end
 end

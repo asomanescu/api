@@ -1,16 +1,17 @@
 class UpdateSeriesJob < ActiveJob::Base
   queue_as :default
 
-  def perform
-    Series.where(id: 1).each do |item|
-      ItemWorker.new.perform item.id
+  def perform(force: false)
+    Series.find_each do |item|
+      ItemWorker.new.perform item.id, force
     end
   end
 
   protected
   class ItemWorker
-    def perform(series_id)
+    def perform(series_id, force)
       series = Series.find series_id
+      return unless force || !series.updated_today?
       document = Nokogiri::XML(open(series_url + URI.encode(series.name)))
       series_params = xml_to_json(document)
 
@@ -37,7 +38,7 @@ class UpdateSeriesJob < ActiveJob::Base
     def xml_to_json(doc)
       parsed_series = doc.css('Series').first
       {
-        the_tv_dbid:          series_id(parsed_series),
+        id:          series_id(parsed_series),
         name:        parsed_series.css('SeriesName').inner_text,
         banner:      banner_url + parsed_series.css('banner').inner_text,
         imdb_id:     parsed_series.css('IMDB_ID').inner_text,
