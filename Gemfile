@@ -23,6 +23,8 @@ gem "sprockets-es6"
 gem "title"
 gem "uglifier"
 gem 'pg', '~> 0.18'
+gem 'active_model_serializers', '0.10.0.rc2'
+gem 'kaminari'
 
 group :development do
   gem "quiet_assets"
@@ -42,6 +44,8 @@ group :development, :test do
   gem "pry-rails"
   gem "rspec-rails"
   gem 'annotate'
+  gem 'better_errors'
+  gem "binding_of_caller"
 end
 
 group :development, :staging do
