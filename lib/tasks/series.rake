@@ -1,10 +1,8 @@
 namespace :series do
   desc 'Gets Series Info'
   task update: :environment do
-    UpdateSeriesJob.perform_async(force: true)
-  end
-
-  task episdes: :environment do
-    
+    Series.find_each do |item|
+      SeriesJob.perform_later item.id, force: true
+    end
   end
 end
