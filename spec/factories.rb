@@ -1,4 +1,13 @@
 FactoryGirl.define do
+  factory :episode do
+    series ""
+    name "MyString"
+    release_date "2016-04-17"
+    season 1
+    episode_number 1
+    overview "MyText"
+    rating 1.5
+  end
   factory :series do
     name "MyString"
     rating 1.5
