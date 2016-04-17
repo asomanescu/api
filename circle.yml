@@ -3,7 +3,7 @@ database:
     - bin/setup
 test:
   override:
-    - COVERAGE=true bin/rake
+    - COVERAGE=true bin/rspec
 deployment:
   staging:
     branch: master
