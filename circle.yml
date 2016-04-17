@@ -4,8 +4,3 @@ database:
 test:
   override:
     - COVERAGE=true bin/rspec
-deployment:
-  staging:
-    branch: master
-    commands:
-      - bin/deploy staging
