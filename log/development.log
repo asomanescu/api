@@ -1,0 +1,23 @@
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/cionescu1/Google Drive/work/EpisodeReminder/api/config/environment.rb:2)
+** [Honeybadger] Unable to start Honeybadger -- api_key is missing or invalid. level=2 pid=17548
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/cionescu1/Google Drive/work/EpisodeReminder/api/config/environment.rb:2)
+** [Honeybadger] Unable to start Honeybadger -- api_key is missing or invalid. level=2 pid=17584
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/cionescu1/Google Drive/work/EpisodeReminder/api/config/environment.rb:2)
+** [Honeybadger] Unable to start Honeybadger -- api_key is missing or invalid. level=2 pid=17615
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/cionescu1/Google Drive/work/EpisodeReminder/api/config/environment.rb:2)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from block (2 levels) in <top (required)> at /Users/cionescu1/Google Drive/work/EpisodeReminder/api/config/environments/development.rb:8)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from validate_secret_key_config! at /Users/cionescu1/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.0.beta3/lib/rails/application.rb:507)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from validate_secret_key_config! at /Users/cionescu1/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.0.beta3/lib/rails/application.rb:507)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from validate_secret_key_config! at /Users/cionescu1/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.0.beta3/lib/rails/application.rb:507)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from validate_secret_key_config! at /Users/cionescu1/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.0.beta3/lib/rails/application.rb:507)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/cionescu1/Google Drive/work/EpisodeReminder/api/config/environment.rb:2)
+** [Honeybadger] Unable to start Honeybadger -- api_key is missing or invalid. level=2 pid=17663
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from <top (required)> at /Users/cionescu1/Google Drive/work/EpisodeReminder/api/config/environment.rb:2)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from block (2 levels) in <top (required)> at /Users/cionescu1/Google Drive/work/EpisodeReminder/api/config/environments/development.rb:8)
+Started GET "/" for ::1 at 2016-04-17 00:03:32 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendered /Users/cionescu1/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.0.beta3/lib/rails/templates/rails/welcome/index.html.erb (5.5ms)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+

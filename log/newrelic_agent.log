@@ -1,0 +1,63 @@
+# Logfile created on 2016-04-17 00:01:45 -0700 by logger.rb/53141
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Starting the New Relic agent in "development" environment.
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Reading configuration from config/newrelic.yml (/Users/cionescu1/Google Drive/work/EpisodeReminder/api)
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : New Relic Agent Developer Mode enabled.
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Environment: development
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : No known dispatcher detected.
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Application: EpisodeReminder
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] WARN : Agent configured not to send data in this environment.
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Installing ActiveJob instrumentation
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Installing ActiveRecord 4+ instrumentation
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Installing Net instrumentation
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Installing Rails 5 Controller instrumentation
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Installing Rails 5 view instrumentation
+[2016-04-17 00:01:45 -0700 Catalins-MacBook-Pro.local (17584)] INFO : Finished instrumentation
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Starting the New Relic agent in "development" environment.
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Reading configuration from config/newrelic.yml (/Users/cionescu1/Google Drive/work/EpisodeReminder/api)
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : New Relic Agent Developer Mode enabled.
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Environment: development
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : No known dispatcher detected.
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Application: EpisodeReminder
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] WARN : Agent configured not to send data in this environment.
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Installing ActiveJob instrumentation
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Installing ActiveRecord 4+ instrumentation
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Installing Net instrumentation
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Installing Rails 5 Controller instrumentation
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Installing Rails 5 view instrumentation
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Finished instrumentation
+[2016-04-17 00:02:09 -0700 Catalins-MacBook-Pro.local (17615)] INFO : Doing deferred dependency-detection before Rack startup
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Starting the New Relic agent in "development" environment.
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Reading configuration from config/newrelic.yml (/Users/cionescu1/Google Drive/work/EpisodeReminder/api)
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : New Relic Agent Developer Mode enabled.
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Environment: development
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : No known dispatcher detected.
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Application: EpisodeReminder
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] WARN : Agent configured not to send data in this environment.
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Installing ActiveJob instrumentation
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Installing ActiveRecord 4+ instrumentation
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Installing Net instrumentation
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Installing Rails 5 Controller instrumentation
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Installing Rails 5 view instrumentation
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Finished instrumentation
+[2016-04-17 00:03:31 -0700 Catalins-MacBook-Pro.local (17663)] INFO : Doing deferred dependency-detection before Rack startup
