@@ -39,6 +39,9 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     addressable (2.4.0)
+    annotate (2.6.5)
+      activerecord (>= 2.3.0)
+      rake (>= 0.8.7)
     arel (7.0.0)
     autoprefixer-rails (6.3.6)
       execjs
@@ -255,6 +258,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate
   autoprefixer-rails
   awesome_print
   bourbon (= 5.0.0.beta.5)
