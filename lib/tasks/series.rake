@@ -1,7 +1,7 @@
 namespace :series do
   desc 'Gets Series Info'
   task update: :environment do
-    UpdateSeriesJob.new.perform
+    UpdateSeriesJob.perform_async(force: true)
   end
 
   task episdes: :environment do
