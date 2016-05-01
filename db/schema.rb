@@ -28,9 +28,8 @@ ActiveRecord::Schema.define(version: 20160417105958) do
     t.string   "queue"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.index ["priority", "run_at"], name: "delayed_jobs_priority", using: :btree
   end
-
-  add_index "delayed_jobs", ["priority", "run_at"], name: "delayed_jobs_priority", using: :btree
 
   create_table "episodes", force: :cascade do |t|
     t.string   "name"
@@ -42,9 +41,8 @@ ActiveRecord::Schema.define(version: 20160417105958) do
     t.integer  "series_id"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
+    t.index ["series_id"], name: "index_episodes_on_series_id", using: :btree
   end
-
-  add_index "episodes", ["series_id"], name: "index_episodes_on_series_id", using: :btree
 
   create_table "series", force: :cascade do |t|
     t.string   "name"
